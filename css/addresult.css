@@ -1,0 +1,78 @@
+.wrapper .main-container2 .card2{
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 14px;
+}
+.main-container2 .contact-section2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form2-text{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #dfe4ea;
+    padding: 20px 40px;
+    outline: none;
+    color: #22242A;
+    transition: 0.2s;
+    font-family: 'Questrial', sans-serif;
+  }
+input[type=submit]{
+    border: 0;
+    background: #22242A;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  input[type=submit]:hover{
+    background: #8da7f3ee;
+  }
+
+
+  #customers td, #customers th {
+    border: 1px solid #dddddd;
+    padding: 15px;
+	  position:relative;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #8FC5E9;}
+  
+  #customers th {
+    position:relative;
+    text-align: center;
+    background-color: #2F323A;
+    color: white;
+  }
+  tr{
+    text-align: center;
+    font-weight: bold ;
+  }
+
+select{
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #dfe4ea;
+  padding: 20px 40px;
+  outline: none;
+  color: #22242A;
+  transition: 0.2s;
+  font-family: 'Questrial', sans-serif;
+}
+form#in.pp{
+  padding: 00px;
+  background-color: #fff;
+  border: none;
+  padding-bottom: 10px;
+}

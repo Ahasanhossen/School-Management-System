@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+    margin: 20px;
+    font-size: 40px;
+    color: #292929;
+}
+.container{
+    display: flex;
+    min-height: 80vh;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    }
+button{
+        background-color: #8da7f3ee;
+        display: block;
+        width: 100%;
+        border: 1px solid #dddddd;
+        border-radius: 4px; 
+      }
+a{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    
+}
+a:hover{
+    color: darkmagenta;
+    cursor: pointer;
+    transition: 0.4s;
+    }
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    }
+img{
+    display: inline-block;
+    height: 55vh;
+    border-radius: 100px;
+    box-shadow: none;
+    position: relative;  
+    }
+fieldset{
+    border: 1px solid #22242A;
+
+    padding: 100px;
+    }     
+legend{
+    font-family: 'Questrial', sans-serif;
+    color: #8da7f3ee;
+       }
+footer{
+    font-family: 'Questrial', sans-serif;
+    float: right;
+    padding-top: 3%;
+    margin: 10px;
+    color: gray;
+    }

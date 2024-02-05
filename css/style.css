@@ -1,0 +1,116 @@
+body{
+    background: url(../images/671822c2f63dd5f65d8fd15c9710420b.jpg) no-repeat;
+    background-size: cover;
+    font-family: Tahoma, Geneva, sans-serif;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+    color: #fff;
+}
+.simple-from{
+ 
+ text-align: center;
+    margin: 58px 103px;
+    border-radius: 3px;
+    background-attachment: fixed;
+    background-position: center;
+}
+#registration{
+    width: 60%;
+    background-color:#0b1b59;
+    opacity: 0.9;
+    padding:28px 1px;
+   margin-right: 50%;
+   margin-left: 13%;
+   position: absolute;
+
+
+ 
+
+}
+#fname
+     {
+    margin: 0px 0px;
+   width: 200px;
+padding: 3px;
+border-radius: 10px;
+outline: 0;
+}
+
+#id {
+    margin: 0px 0px;
+    width: 200px;
+    padding: 04px;
+    border-radius: 10px;
+}
+#ph {
+    width: 53px;
+    padding: 3px;
+    border-radius: 10px;
+}
+#num{
+    width: 155px;
+    padding: 4px;
+    border-radius: 10px;
+}
+#email {
+    width: 200px;
+    padding: 4px;
+    border-radius: 10px;
+
+}
+#pass {
+    width: 200px;
+    padding: 4px;
+    border-radius: 10px;
+}
+#cpass {
+    width: 200px;
+    padding: 4px;
+    border-radius: 10px;
+}
+#Permanent Address {
+    width: 200px;
+    padding: 4px;
+border-radius: 10px;
+}
+#Permanent\ Address {
+border-radius: 10px;
+}
+#prasent Address {
+
+    width: 200px;
+    padding: 4px;
+   border-radius: 10px;
+}
+#dob {
+border-radius: 10px;
+}
+#course {
+border-radius: 10px;
+}
+#present\ Address {
+border-radius: 10px;
+}
+label{
+    margin: 1px 7px;
+    color: azure;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+h1{
+    color:
+white;
+margin: 39px;
+}
+input[type=submit]:hover{
+background-color:aqua;
+    color:black;
+
+}
+input[type=submit]{
+padding: 8px 50px;
+background-color:red;
+ border-radius: 10px;
+}

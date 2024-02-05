@@ -1,0 +1,149 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+.container{
+
+
+    min-height: 100vh;
+    display: flex;
+
+}
+.left{
+
+    width: 50vw;
+   
+}
+.head{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ 
+     position: relative;
+     top: 10%;
+ 
+ 
+     margin: 5px;
+     font-family: 'Questrial', sans-serif;
+     font-size: 30px;
+     letter-spacing: 2px;
+     word-spacing: 5px;
+     color: black;
+ 
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.form{
+
+    width: 280px;
+    position: absolute;
+    top: 20%;
+    color: black;
+
+}
+.textbox{
+
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid black;
+}
+.fa{
+
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.textbox2{
+
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid black;
+    display: flex;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    opacity: 90%;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.btn{
+
+    width: 100%;
+    background: none;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.btn:hover{
+
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+
+
+}
+
+a{
+ 
+    color: #516971;
+    font-size: 15px;
+    padding-left: 190px;
+    padding-top: 5px;
+
+}
+a:hover{
+
+    color: black;
+    opacity: 80%;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.log{
+    padding-top: 5px;
+    color: skyblue;
+}
+
+.right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+
+}
+img{
+      
+    height: 80vh;
+    border-radius: 500px; 
+    
+}
